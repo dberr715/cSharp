@@ -1,0 +1,23 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#646620",
+    "activityBar.background": "#646620",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#35a7aa",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#646620",
+    "statusBar.background": "#3e3f14",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#646620",
+    "statusBarItem.remoteBackground": "#3e3f14",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#3e3f14",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#3e3f1499",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#3e3f14",
+  "dotnet.defaultSolution": "CsharpProjects/TestProject/TestProject.sln"
+}

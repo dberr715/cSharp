@@ -1,0 +1,14 @@
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.deps.json
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.runtimeconfig.json
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.dll
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.pdb
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.dll
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
+/Users/davidberry/Repos/cSharp/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll
