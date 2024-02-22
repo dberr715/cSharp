@@ -1,9 +1,13 @@
-﻿string[] orderNumbers = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+﻿string str = "The quick brown fox jumps over the lazy dog.";
 
-        foreach (string orderNumber in orderNumbers)
-        {
-            if (orderNumber.StartsWith("B"))
-            {
-                Console.WriteLine($"Possible fraudulent order number: {orderNumber}");
-            }
-        }
+char[] charMessage = str.ToCharArray();
+
+Array.Reverse(charMessage);
+int x = 0;
+
+foreach (char i in charMessage) { if (i == 'o') { x++; } }
+
+string new_message = new String(charMessage);
+
+Console.WriteLine(new_message);
+Console.WriteLine($"'o' appears {x} times.");
