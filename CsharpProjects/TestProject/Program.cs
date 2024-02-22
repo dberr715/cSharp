@@ -1,31 +1,16 @@
-﻿Random dice = new Random();
+﻿// string[] fraudulentOrderIDs = new string[3];
+string[] fraudulentOrderIDs = {"Number1", "Number2", "Number3"};
 
-int roll1 = dice.Next(1, 7);
-int roll2 = dice.Next(1, 7);
-int roll3 = dice.Next(1, 7);
 
-int total = roll1 + roll2 + roll3;
+// fraudulentOrderIDs[0] = "A123";
+// fraudulentOrderIDs[1] = "B456";
+// fraudulentOrderIDs[2] = "C789";
+// fraudulentOrderIDs[0] = "new value";
 
-Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 
-if ((roll1 == roll2) && (roll2 == roll3)) 
-{
-    Console.WriteLine("You rolled triples! +6 bonus to total!");
-    total += 6;
-}
-if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
-{
-    Console.WriteLine("You rolled doubles! +2 bonus to total!");
-    total += 2;
-}
-if (total >= 15)
-{
-    Console.WriteLine("You win!");
-}
+Console.WriteLine($"First:  {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
 
-if (total < 15)
-{
-    Console.WriteLine("Sorry, you lose.");
-}
-
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} in this array");
 
