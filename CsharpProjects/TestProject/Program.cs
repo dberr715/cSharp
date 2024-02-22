@@ -1,11 +1,9 @@
-﻿int[] inventory = {1, 23, 46, 77,88};
-int sum = 0;
-int bin = 0;
+﻿string[] orderNumbers = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
 
-foreach (int items in inventory) {
-    sum += items ;
-    bin++;
-    Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
-}
-
-Console.WriteLine($"The sum of the numbers is: {sum}");
+        foreach (string orderNumber in orderNumbers)
+        {
+            if (orderNumber.StartsWith("B"))
+            {
+                Console.WriteLine($"Possible fraudulent order number: {orderNumber}");
+            }
+        }
