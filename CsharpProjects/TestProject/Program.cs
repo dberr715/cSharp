@@ -221,3 +221,13 @@ for (int i = 0; i < stringsCount; i++)
     mySentence = myString.Trim();
     Console.WriteLine(mySentence);
 }
+
+
+
+
+
+decimal myDecimal = 3.14m;
+Console.WriteLine($"decimal: {myDecimal}");
+
+int myInt = (int)myDecimal;
+Console.WriteLine($"int: {myInt}");
